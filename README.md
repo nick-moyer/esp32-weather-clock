@@ -2,6 +2,8 @@
 
 A connected dot-matrix weather clock built with an ESP32 and an FC-16 MAX7219 4-in-1 LED matrix module. Displays synchronized time via NTP, live local temperature via OpenWeatherMap API, and date with custom matrix typography and animations.
 
+Based on the 3D printable project design from [Printables: ESP32 Weather Clock](https://www.printables.com/model/1376841-esp32-weather-clock).
+
 ---
 
 ## Features
@@ -117,3 +119,10 @@ pio run --target upload
 # Open Serial Monitor
 pio device monitor -b 115200
 ```
+
+---
+
+## Credits & Attribution
+
+- Physical enclosure and original project inspiration based on [ESP32 Weather Clock by Printables](https://www.printables.com/model/1376841-esp32-weather-clock).
+
